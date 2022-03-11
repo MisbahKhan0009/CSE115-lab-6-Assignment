@@ -3,16 +3,19 @@
 
 int main()
 {
-    int n, j, i = 5, sum = 0, d = 4;
+    int n, j, i = 5, sum = 0, d = 0;
 
     printf("\nEnter the last value of the series: ");
     scanf("%d", &n);
 
     while (i <= n)
     {
+
         i += d;
+        d += 2;
         j = pow(i, 2);
         sum += j;
+        printf("%d ", i);
     }
 
     printf("sum = %d\n\n", sum);
