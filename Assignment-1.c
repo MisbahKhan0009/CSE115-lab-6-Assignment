@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n, j, i = 5, sum = 0, d = 2;
+    int n, j, i = 5, sum = 0, d = 4;
 
     printf("\nEnter the last value of the series: ");
     scanf("%d", &n);
